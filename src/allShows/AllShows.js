@@ -24,7 +24,7 @@ class AllShows extends React.Component {
 
 
     componentDidMount() {
-        FetchShows("http://api.tvmaze.com/shows")
+        FetchShows("https://api.tvmaze.com/shows")
             .then((data) => this.setState({ shows: data }));
         // this.state.value ? this.search() : null;
     }

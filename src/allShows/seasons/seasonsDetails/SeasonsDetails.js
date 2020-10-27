@@ -12,7 +12,7 @@ class SeasonsDetails extends React.Component {
     }
 
     componentDidMount() {
-        FetchShows(`${`http://api.tvmaze.com/shows/`}${this.props.match.params.id}/seasons`)
+        FetchShows(`${`https://api.tvmaze.com/shows/`}${this.props.match.params.id}/seasons`)
             .then((response) => this.setState({ seasons: response })
             )
     }

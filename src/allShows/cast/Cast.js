@@ -14,7 +14,7 @@ class Cast extends React.Component {
     
 
     componentDidMount() {
-        FetchShows(`${`http://api.tvmaze.com/shows/`}${this.props.id}/cast`)
+        FetchShows(`${`https://api.tvmaze.com/shows/`}${this.props.id}/cast`)
             .then((response) => this.setState({
                 casts: response
             }))

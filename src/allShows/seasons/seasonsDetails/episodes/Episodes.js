@@ -11,7 +11,7 @@ class Episodes extends React.Component {
 
     }
     componentDidMount() {
-        FetchShows(`${`http://api.tvmaze.com/seasons/`}${this.props.match.params.id}/episodes`)
+        FetchShows(`${`https://api.tvmaze.com/seasons/`}${this.props.match.params.id}/episodes`)
             .then(console.log(this.props.match.params.id))
             .then((response) => this.setState({
                 episodes: response

@@ -54,7 +54,7 @@ class Search extends React.Component {
     // }
 
     trying() {
-        FetchShows(`${`http://api.tvmaze.com/search/shows?q=`}${this.state.value}`)
+        FetchShows(`${`https://api.tvmaze.com/search/shows?q=`}${this.state.value}`)
             .then((response) => this.setState({ search: response })
             );
     }

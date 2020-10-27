@@ -18,7 +18,7 @@ class CastDetails extends React.Component {
     }
 
     componentDidMount() {
-        FetchShows(`${`http://api.tvmaze.com/shows/`}${this.props.match.params.id}/cast`)
+        FetchShows(`${`https://api.tvmaze.com/shows/`}${this.props.match.params.id}/cast`)
             .then((response) => this.setState({ casts: response }))
     }
 
