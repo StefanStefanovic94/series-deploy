@@ -1,0 +1,22 @@
+input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.list{
+background-color:lightgreen;
+display: flex;
+flex-wrap: wrap;
+border: solid lightgrey 1px;
+}
+.image{
+    width: 50px;
+}
+.parentList{
+    position: absolute;
+    z-index: 1;
+}
+.text{
+    color: black;
+    text-align: center;
+    margin:auto 0
+}
