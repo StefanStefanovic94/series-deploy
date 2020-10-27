@@ -14,7 +14,7 @@ class InfoHero extends React.Component {
         }
     }
     componentDidMount() {
-        FetchShows(`${`http://api.tvmaze.com/shows/`}${this.props.match.params.id}`)
+        FetchShows(`${`https://api.tvmaze.com/shows/`}${this.props.match.params.id}`)
             .then((response) => this.setState({ show: response }));
 
     }
