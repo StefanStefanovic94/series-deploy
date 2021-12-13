@@ -33,7 +33,7 @@ class CastDetails extends React.Component {
                     <div className={style.wrap}>
                         {this.state.casts.map((cast, i) => (
                             <div onClick={this.changeView} className={style.card}>
-                                <img src={cast.person.image ? cast.person.image.medium:"no"}/>
+                                <img src={cast.person.image ? cast.person.image.medium:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png"}/>
                                 <h3>{cast.person.name}</h3>
                             </div>
                         ))}
@@ -47,7 +47,7 @@ class CastDetails extends React.Component {
                     <div className={style.wrap}>
                         {this.state.casts.map((cast, i) => (
                             <div onClick={this.changeView} className={style.card}>
-                            <img src={cast.character.image ? cast.character.image.medium:"no"}/> 
+                            <img src={cast.character.image ? cast.character.image.medium:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png"}/> 
 
                                 <h3>{cast.character.name}</h3>
                                 <h5>({cast.person.name})</h5>

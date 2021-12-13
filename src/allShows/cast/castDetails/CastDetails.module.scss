@@ -2,6 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    img{
+        max-width: 200px;
+        max-height: 400px;
+    }
 }
 .card{
     border:solid #93827f;

@@ -23,7 +23,7 @@ class InfoHero extends React.Component {
         return (
             <div>
                 <div>
-                    <img src={this.state.show.image ? this.state.show.image.medium : "no image"} key={this.state.show.id} />
+                    <img src={this.state.show.image ? this.state.show.image.medium : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png"} key={this.state.show.id} />
                     <h2 className={style.name}>{this.state.show.name}</h2>
                 </div>
             </div>

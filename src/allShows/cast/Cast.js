@@ -25,10 +25,11 @@ class Cast extends React.Component {
             <div className={style.cast}>
                 <h2>Cast:</h2>
                 {this.state.casts.map((cast, i) => {
+                    console.log(this.state.casts)
                     if (i < 5) {
                         return (
                             <ul>
-                                <li>{cast.person.name}</li>
+                                <li>{cast.person.name} ~ {cast.character.name}</li>
                             </ul>
                         )
                     }

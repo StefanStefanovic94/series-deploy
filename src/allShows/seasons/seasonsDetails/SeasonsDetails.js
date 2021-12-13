@@ -22,7 +22,7 @@ class SeasonsDetails extends React.Component {
             <div className={style.wrap}>
                 {this.state.seasons.map(season => (
                     <div className={style.card}>
-                        <img src={season.image ? season.image.medium : "no image"} />
+                        <img src={season.image ? season.image.medium : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png"} />
                         <h4>Seasons: {season.number}</h4>
                         <Link to={`${`/info-show/`}${this.props.match.params.id}/${season.id}/episodes`}>
                             <h3 className={style.episodes}>Episodes</h3>

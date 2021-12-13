@@ -30,7 +30,9 @@ class Seasons extends React.Component {
                     {this.state.seasons.map(season => (
 
                         <ul>
-                            <li>{season.premiereDate} ; {season.endDate}</li>
+                            {console.log(this.state.seasons)}
+                            <li>Premiere for season {season.number}:  {season.premiereDate}</li>
+                            <li>Number of episodes: {season.episodeOrder}</li>
                         </ul>
 
                     ))}

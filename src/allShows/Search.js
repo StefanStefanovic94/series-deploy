@@ -64,7 +64,7 @@ class Search extends React.Component {
             <div>
 
                 {console.log(this.state.search)}
-                <input onChange={this.searchedSeries} placeholder="search..."></input>
+                <input onChange={this.searchedSeries} placeholder="search here for your show..."></input>
                 {this.state.value ? this.trying() : null}
                 <div className={style.parentList}>
                     {this.state.value === "" ? "" : this.state.search.map(show => (

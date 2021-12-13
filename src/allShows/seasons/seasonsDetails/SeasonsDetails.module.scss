@@ -1,25 +1,27 @@
-.wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+    max-width: 200px;
+    max-height: 400px;
+  }
 }
-.card{
-    margin: 30px;
-    border: solid #93827f;
-    box-shadow: 5px 5px 5px lightgrey;
-    padding-bottom: 5px;
-    h4{
-        text-align: center;
-    }
-
+.card {
+  margin: 30px;
+  border: solid #93827f;
+  box-shadow: 5px 5px 5px lightgrey;
+  padding-bottom: 5px;
+  h4 {
+    text-align: center;
+  }
 }
-.episodes{
-    background-color: rgb(47, 100, 153);
-    max-width: fit-content;
-    border-radius: 3px;
-    padding: 5px;
-    margin-bottom: 13px;
-    margin: 0 auto;
-    color: white;
+.episodes {
+  background-color: rgb(47, 100, 153);
+  max-width: fit-content;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 13px;
+  margin: 0 auto;
+  color: white;
 }
-
