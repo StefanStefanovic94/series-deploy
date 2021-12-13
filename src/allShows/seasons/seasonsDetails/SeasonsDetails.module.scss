@@ -1,11 +1,13 @@
 .wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     margin: 30px;
-    border: solid lightgray;
+    border: solid #93827f;
     box-shadow: 5px 5px 5px lightgrey;
+    padding-bottom: 5px;
     h4{
         text-align: center;
     }

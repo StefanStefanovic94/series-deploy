@@ -56,7 +56,7 @@ class AllShows extends React.Component {
                                     </Col>
                                 )
                             }
-                        })}S
+                        })}
                     </div>
 
             </div>

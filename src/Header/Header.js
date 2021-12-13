@@ -8,7 +8,7 @@ const Header = () => {
         <div className={style.header}>
             
                 <Link to="/">
-                    <h2>Popular Series</h2>
+                    <h2>TW SHOWS</h2>
                 </Link>
            
         </div >

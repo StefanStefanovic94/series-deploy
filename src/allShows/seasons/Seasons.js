@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import { FetchShows } from "../../services/Fetch"
+import style from "./Seasons.module.scss"
 
 class Seasons extends React.Component {
     constructor() {
@@ -21,7 +22,7 @@ class Seasons extends React.Component {
 
         return (
 
-            <div>
+            <div className={style.seasons}>
                 <div>
                     <h2>Seasons ({this.state.seasons.length})</h2>
                 </div>

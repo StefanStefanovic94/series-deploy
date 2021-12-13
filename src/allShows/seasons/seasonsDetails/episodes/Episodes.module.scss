@@ -1,9 +1,10 @@
 .wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
-        border:solid lightgrey;
+        border:solid #93827f;
         margin-bottom: 20px;
         box-shadow: 5px 5px 5px lightgrey;
         margin: 30px;
